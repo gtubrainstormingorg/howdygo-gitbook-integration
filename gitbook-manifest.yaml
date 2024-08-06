@@ -2,7 +2,6 @@ name: howdygo
 title: Howdygo
 organization: YGuaQE4jWIsSq89h5MSN
 visibility: unlisted
-description: Embed interactive product demos in your documentation
 script: src/index.tsx
 previewImages:
     - ./assets/preview-image.png
