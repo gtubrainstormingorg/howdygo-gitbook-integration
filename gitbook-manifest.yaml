@@ -4,6 +4,19 @@ organization: YGuaQE4jWIsSq89h5MSN
 visibility: unlisted
 description: Embed interactive product demos in your documentation
 script: src/index.tsx
+previewImages:
+    - ./assets/preview-image.png
+summary: |
+    With HowdyGo you can create, edit and anonymize interactive walkthroughs of your product. 
+
+    # How it works
+
+    Publish your demo and take the share link from a HowdyGo demo and paste it into your GitBook page. The integration will automatically embed the demo into your documentation.
+
+    # Configure
+
+    To configure the HowdyGo integration for your spaces, navigate to "Integrations" and select "Manage Spaces" > "Enable for all spaces" (or select a specific space).
+description: Embed interactive product demos in your documentation and turn all users into power users.
 scopes: []
 blocks:
   - id: embed
