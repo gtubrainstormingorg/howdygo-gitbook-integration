@@ -65,12 +65,12 @@ const embedBlock = createComponent<{
       }
 
       const embedData = await fetchHowdyGoOEmbedData(url);
-      const { embedUrl } = parseEmbedHtml(embedData.html)
+      const { embedUrl } = parseEmbedHtml(embedData.html);
 
       const aspectRatio = embedData.width / embedData.height;
 
       return (
-          <block>
+          <block> 
               <webframe
                   source={{
                       url: embedUrl,
