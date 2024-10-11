@@ -4,7 +4,7 @@ organization: YGuaQE4jWIsSq89h5MSN
 visibility: unlisted
 script: src/index.tsx
 previewImages:
-  - ./assets/preview-image.png
+  - ./assets/preview-image-1.png
 summary: |
   Skip the walls of text and static screenshots. Educate your users by embedding interactive demos in your documentation.
 
