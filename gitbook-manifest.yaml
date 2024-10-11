@@ -1,28 +1,30 @@
 name: howdygo
-title: Howdygo
+title: HowdyGo
 organization: YGuaQE4jWIsSq89h5MSN
 visibility: unlisted
 script: src/index.tsx
 previewImages:
-    - ./assets/preview-image.png
+  - ./assets/preview-image.png
 summary: |
-    With HowdyGo you can create, edit and anonymize interactive walkthroughs of your product. 
+  Skip the walls of text and static screenshots. Educate your users by embedding interactive demos in your documentation.
 
-    # How it works
+  Capture a demo simply by clicking through a flow with the HowdyGo extension. Edit the flow and captured UI with our no-code editor. Embed it right in your documentation.
 
-    Publish your demo and take the share link from a HowdyGo demo and paste it into your GitBook page. The integration will automatically embed the demo into your documentation.
+  # How it works
 
-    # Configure
+  Simply paste the share link from a HowdyGo demo into your GitBook page. The integration will automatically convert the link into an embedded demo.
 
-    To configure the HowdyGo integration for your spaces, navigate to "Integrations" and select "Manage Spaces" > "Enable for all spaces" (or select a specific space).
-description: Embed interactive product demos in your documentation and turn all users into power users.
+  # Configure
+
+  To configure the HowdyGo integration for your spaces, navigate to "Integrations" and select "Manage Spaces" > "Enable for all spaces" (or select a specific space).
+description: Engage users by embedding interactive demos in your documentation.
 scopes: []
 blocks:
   - id: embed
     title: HowdyGo
     description: Interactive product demo
     urlUnfurl:
-        - https://app.howdygo.com/embed/**
-        - https://app.howdygo.com/share/**
+      - https://app.howdygo.com/embed/**
+      - https://app.howdygo.com/share/**
 secrets: {}
 icon: ./assets/icon.png
